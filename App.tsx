@@ -135,9 +135,9 @@ const App: React.FC = () => {
               </div>
 
               <div className="mt-auto flex gap-6">
-                  <a href="https://www.instagram.com/iamcameronamos/" className="text-white hover:text-[#EF5B25]"><SleekInstagram size={28} /></a>
-                  <a href="https://www.tiktok.com/@iamcameronamos" className="text-white hover:text-[#EF5B25]"><SleekTikTok size={28} /></a>
-                  <a href="https://www.youtube.com/@iamcameronamos" className="text-white hover:text-[#EF5B25]"><SleekYouTube size={28} /></a>
+                  <a href="https://www.instagram.com/iamcameronamos/" rel="me" className="text-white hover:text-[#EF5B25]"><SleekInstagram size={28} /></a>
+                  <a href="https://www.tiktok.com/@iamcameronamos" rel="me" className="text-white hover:text-[#EF5B25]"><SleekTikTok size={28} /></a>
+                  <a href="https://www.youtube.com/@iamcameronamos" rel="me" className="text-white hover:text-[#EF5B25]"><SleekYouTube size={28} /></a>
               </div>
           </div>
       </div>
@@ -159,9 +159,9 @@ const App: React.FC = () => {
                 <div className={`h-4 w-px mx-2 ${isContact ? 'bg-zinc-200' : 'bg-white/30'}`}></div>
 
                 <div className="flex items-center gap-5">
-                    <a href="https://www.instagram.com/iamcameronamos/" target="_blank" rel="noopener noreferrer" className={`${navTextColor} hover:text-[#EF5B25] transition-colors`}><Instagram size={18} /></a>
-                    <a href="https://www.tiktok.com/@iamcameronamos" target="_blank" rel="noopener noreferrer" className={`${navTextColor} hover:text-[#EF5B25] transition-colors`}><TikTokIcon size={18} /></a>
-                    <a href="https://www.youtube.com/@iamcameronamos" target="_blank" rel="noopener noreferrer" className={`${navTextColor} hover:text-[#EF5B25] transition-colors`}><Youtube size={18} /></a>
+                    <a href="https://www.instagram.com/iamcameronamos/" target="_blank" rel="me noopener noreferrer" className={`${navTextColor} hover:text-[#EF5B25] transition-colors`}><Instagram size={18} /></a>
+                    <a href="https://www.tiktok.com/@iamcameronamos" target="_blank" rel="me noopener noreferrer" className={`${navTextColor} hover:text-[#EF5B25] transition-colors`}><TikTokIcon size={18} /></a>
+                    <a href="https://www.youtube.com/@iamcameronamos" target="_blank" rel="me noopener noreferrer" className={`${navTextColor} hover:text-[#EF5B25] transition-colors`}><Youtube size={18} /></a>
                 </div>
             </div>
 
@@ -256,9 +256,9 @@ const App: React.FC = () => {
                             <p>He has amassed millions of views online and built nearly 100,000 followers across social media platforms, with viral stand-up clips and comedy sketches resonating with a wide audience. Cam performs stand-up comedy across the U.S. while continuing to grow his digital presence through original content on TikTok, Instagram, and YouTube.</p>
                         </div>
                         <div className="flex gap-8 mt-12 justify-center">
-                            <a href="https://www.instagram.com/iamcameronamos/" target="_blank" rel="noopener noreferrer" className="text-[#EF5B25] hover:text-black transition-colors"><SleekInstagram size={24} /></a>
-                            <a href="https://www.tiktok.com/@iamcameronamos" target="_blank" rel="noopener noreferrer" className="text-[#EF5B25] hover:text-black transition-colors"><SleekTikTok size={24} /></a>
-                            <a href="https://www.youtube.com/@iamcameronamos" target="_blank" rel="noopener noreferrer" className="text-[#EF5B25] hover:text-black transition-colors"><SleekYouTube size={24} /></a>
+                            <a href="https://www.instagram.com/iamcameronamos/" target="_blank" rel="me noopener noreferrer" className="text-[#EF5B25] hover:text-black transition-colors"><SleekInstagram size={24} /></a>
+                            <a href="https://www.tiktok.com/@iamcameronamos" target="_blank" rel="me noopener noreferrer" className="text-[#EF5B25] hover:text-black transition-colors"><SleekTikTok size={24} /></a>
+                            <a href="https://www.youtube.com/@iamcameronamos" target="_blank" rel="me noopener noreferrer" className="text-[#EF5B25] hover:text-black transition-colors"><SleekYouTube size={24} /></a>
                         </div>
                     </div>
                 </div>
@@ -311,9 +311,9 @@ const App: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-8 md:flex-1 justify-center md:justify-end">
-                    <a href="https://www.instagram.com/iamcameronamos/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#EF5B25] transition-colors"><SleekInstagram size={24} /></a>
-                    <a href="https://www.tiktok.com/@iamcameronamos" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#EF5B25] transition-colors"><SleekTikTok size={24} /></a>
-                    <a href="https://www.youtube.com/@iamcameronamos" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#EF5B25] transition-colors"><SleekYouTube size={24} /></a>
+                    <a href="https://www.instagram.com/iamcameronamos/" target="_blank" rel="me noopener noreferrer" className="text-white hover:text-[#EF5B25] transition-colors"><SleekInstagram size={24} /></a>
+                    <a href="https://www.tiktok.com/@iamcameronamos" target="_blank" rel="me noopener noreferrer" className="text-white hover:text-[#EF5B25] transition-colors"><SleekTikTok size={24} /></a>
+                    <a href="https://www.youtube.com/@iamcameronamos" target="_blank" rel="me noopener noreferrer" className="text-white hover:text-[#EF5B25] transition-colors"><SleekYouTube size={24} /></a>
                 </div>
             </div>
             
